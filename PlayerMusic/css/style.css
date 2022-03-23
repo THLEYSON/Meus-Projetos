@@ -1,0 +1,101 @@
+body{
+    background-image: url(https://img.freepik.com/fotos-gratis/jovem-e-mulher-ouvindo-musica-em-fones-de-ouvido_273609-23055.jpg?t=st=1648072745~exp=1648073345~hmac=55ae28b7484ba9041877273f18fbe00f9d232720709b4b33db08b2afc27ddb91&w=1380);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(245, 221, 7);
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+img{
+    width: 350px;
+    height: 310px;
+    border: 2px solid rgb(245, 221, 7);
+}
+
+.descricao{
+    width: 300px;
+    margin-bottom: 4px;
+    
+}
+h2{
+    margin-bottom: 3px;
+    color: white;
+}
+.duracao{
+    width: 300px;
+    margin-top: 25px;
+    color: white;
+    
+}
+.barra{
+    width: 300px;
+    height: 6px;
+    border: 2px solid rgb(245, 221, 7);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+progress{
+    height: 6px;
+    width: 0%;
+    
+}
+.ponto{
+    width: 20px;
+    height: 20px;
+    border-radius: 35%;
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    margin-left: -10px;
+    
+
+}
+.tempo{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    
+}
+#botao-pause{
+    display: none ;
+    cursor: pointer;
+    
+
+}
+.player{
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.botao-play, .botao-pause{
+    font-size: 68px;
+    cursor: pointer;
+}
+.setas{
+    font-size: 42px;
+    cursor: pointer;
+}
+
+header{
+    background-color: rgba(36, 36, 36, 0.747);
+    margin: 20px;
+    padding: 40px;
+    border-radius: 32px;
+    
+   
+}

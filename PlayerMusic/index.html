@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayerMusic</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/c1a47ad289.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="container">
+        <img src="./img/cpm22.jpg" alt="Banda CPM22">
+        <div class="descricao">
+            <h2>Dias Atrás (Ao Vivo no Rock in Rio)</h2>
+            <i>CPM 22</i>
+        </div>
+        <div class="duracao">
+            <div class="barra">
+                <progress value="0.0" max="1"></progress>
+                <div class="ponto"></div>
+            </div>
+            <div class="tempo">
+                <p class="inicio">0:00</p>
+                <p class="fim">3:40</p>
+            </div>
+        </div>
+
+        <div class="player">
+            <i class="fa-solid fa-backward-step setas anterior"></i>
+            <i class="fa-solid fa-circle-play botao-play"></i>
+            <i class="fa-solid fa-circle-pause botao-pause" id="botao-pause"></i>
+            <i class="fa-solid fa-forward-step setas proxima"></i>
+        </div>
+    </header>
+    <audio src="./music/cpm22.mp3"></audio>
+
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
